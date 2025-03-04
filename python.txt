@@ -20,3 +20,57 @@ this is a favorite show of sir Guido van rossum, the creator of the language."
 
 Q6. what are the basic syntax of python?
 "the basic python syntax are indentation, functions, strings, and variables"
+
+Q7. what is dynamical type in python?
+"python is a dynamical type programming language,
+in python you don't need to declare the type of variable before using it."
+
+Q8. Naming rule in python?
+"1. not start with number, special characters, space are not allowed in the variablel, reserved keys cannot be use,
+ 2. variable name should be in lowercase, underscore is allowed, variable name should be descriptive,
+  'descriptive name' refers to a variable, function, or class name that clearly conveys its purpose and
+   what it represents within the code."
+
+Q9. what are the datatype in python?
+
+                                                            
+                                                             ----- Integer
+                                                            |
+                                                             ----- Float        
+            --- 1.Built in DataType( primitive data type)---|
+           |                                                 ----- string
+           |                                                |
+           |                                                 ----- Boolean
+           |
+DataType---|
+           |                                                                         ---- List
+           |                                                                        |
+           |                                                       ---- Mutable ---- ---- dictionary
+           |                                                      |                 |
+           |                                                      |                  ---- set 
+            --- 2.Sequential DataType( Non primitive data type)---|                  
+                                                                  |
+                                                                  |                   ---- Tuple
+                                                                  |                  |
+                                                                   ---- Imutable ----|
+                                                                                     |
+                                                                                      ---- string
+
+
+Q10. what is the use of "pass" in python?
+"The pass statement is a placeholder when a statement is required syntactically but no execution of code is necessary."
+
+
+what we gonna cover in this tutorial?
+=====================================
+1. Basic syntax of python
+2. Variables and data types
+3. Operators in python
+4. Control structures in python
+5. Loops
+6. Functions in python
+7. Modules in python
+8. Object-Oriented Programming in python
+9. Exception Handling in python
+10. File Input/Output in python
+11. Regular Expression in python
