@@ -1,0 +1,22 @@
+Q1. what is python?
+"Python is a programing language, Python is high level programing lanuage, python is interpreted programing language,
+python is object oriented programing language."
+
+Q2. Defination of python?
+"python is an object ooriented high level interpreted programing language"
+
+Q3. what is interpreter and compiler?
+"interpreter and compiler are both programs that convert high level language into machine language, 
+but interpreter does it line by line and compiler does it all at once"
+
+Q4. who developed python?
+"python is developed by GUIDO VAN ROSSUM in 1991,
+he start working on python in late 80's by 1989,
+he release first version of python in 1991."
+
+Q5. why python called "python"?
+"The programming language Python is named after the British comedy series Monty Python's Flying Circus, 
+this is a favorite show of sir Guido van rossum, the creator of the language."
+
+Q6. what are the basic syntax of python?
+"the basic python syntax are indentation, functions, strings, and variables"
