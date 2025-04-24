@@ -2,7 +2,7 @@ import numpy as np
 
 # ************ 1 - D array ***********
 
-a = np.array([1,2,3,4,5,6,7,8,9])
+a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 print(a)
 print(f"It is a \'{a.ndim}-D\' array")
 print(a.shape)
@@ -10,8 +10,8 @@ print("\n")
 
 # ************ 2 - D array ***********
 
-b = np.array([[1,2,3,4,5,6,7,8,9], 
-              [11,12,13,14,15,16,17,18,19]])
+b = np.array([[1,2,3,4,5,6,7,8,9,10], 
+              [11,12,13,14,15,16,17,18,19,20]])
 print(b)
 print(f"It is a \'{b.ndim}-D\' array")
 print(f"It will show how many row and column is present in the array\'(rows, column)\'{b.shape} \n")
@@ -70,6 +70,28 @@ print("*****slicing in 3-D array*****")
 print("[2-D array, rows, starting index : ending index]")
 print(c[1,2,2:8])
 print("\n")
+
+# ************ Reshaping array from 1-D to 2-D array ***********
+
+print("*****Reshaping 1-D array to 2-D array*****")
+x = a.reshape(2,6)
+print(a)
+print(f"{x}\n")
+
+# ************ Reshaping array from 1-D to 3-D array ***********
+
+print("*****Reshaping 1-D array to 3-D array*****")
+y = a.reshape(2,2,3)
+print(a)
+print(f"{y}\n")
+
+# ************ Reshaping array from 2-D to 1-D array ***********
+
+print("***** Reshaping 2-D array to 1-D array *****")
+d = b.reshape(1,18)
+print(b)
+print(f"{d}\n")
+
 
 
 
