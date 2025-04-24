@@ -133,18 +133,29 @@ print("\n")
 
 # ************ number gussing game using Numpy   ***********
 
-a5 = np.random.randint(1,5)
-a6 = int(input("enter the number between 1 to 5: "))
+# a5 = np.random.randint(1,5)
+# a6 = int(input("enter the number between 1 to 5: "))
 
-if a6 == a5:
-    pass
-    print("user won the game🎉🎊")
-else:
-    pass
-    print("user loose the game🥺 ")
+# if a6 == a5:
+#     pass
+#     print("user won the game🎉🎊")
+# else:
+#     pass
+#     print("user loose the game🥺 ")
+# print("\n")
 
 
-# ************ number gussing game using Numpy   ***********
+# ************ finding 'mean' using Numpy ***********
+
+a7 = np.array([1,2,3,4,5,6,7,8,9])
+a8 = np.mean(a7)
+print(a8)
+print("\n")
+
+# ************ finding 'median' using Numpy ***********
+
+
+
 
 
 # a = np.array([1,2,3,4,5,6,7,8,9])
