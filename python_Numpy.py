@@ -75,24 +75,76 @@ print("\n")
 
 print("*****Reshaping 1-D array to 2-D array*****")
 x = a.reshape(2,6)
+print("1-D array")
 print(a)
+print("2-D array")
 print(f"{x}\n")
 
 # ************ Reshaping array from 1-D to 3-D array ***********
 
 print("*****Reshaping 1-D array to 3-D array*****")
 y = a.reshape(2,2,3)
+print("1-D array")
 print(a)
+print("3-D array")
 print(f"{y}\n")
 
 # ************ Reshaping array from 2-D to 1-D array ***********
 
 print("***** Reshaping 2-D array to 1-D array *****")
-d = b.reshape(1,18)
+d = b.reshape(1,20)
+print("2-D array")
 print(b)
+print("1-D array")
 print(f"{d}\n")
 
+# ************ Reshaping array from 2-D to 3-D array ***********
 
+print("***** Reshaping 2-D array to 3-D array *****")
+e = b.reshape(2,2,5)
+print("2-D array ")
+print(b)
+print("3-D array ")
+print(f"{e}\n")
+
+# ************ Generating number ***********
+
+print("generating number for numpy")
+a1 = np.random.randint(1,100, size = 100)
+print(a1)
+a2 = np.sort(a1)
+print("order")
+print(a2)
+print("\n")
+
+# ************ Find the missing value between 2 numbers  ***********
+
+a3 = np.random.uniform(1,10, size = 7)
+print(".uniform will return the value between the range given in decimal and unorderd like the range is 1-9 see:")
+print(a3)
+print("\n")
+
+# ************ generating a unrepeated number using Numpy array  ***********
+
+a4 = np.random.choice(np.arange(1,101),size=100, replace=False)
+a5 = np.sort(a4)
+print(a5)
+print("\n")
+
+# ************ number gussing game using Numpy   ***********
+
+a5 = np.random.randint(1,5)
+a6 = int(input("enter the number between 1 to 5: "))
+
+if a6 == a5:
+    pass
+    print("user won the game🎉🎊")
+else:
+    pass
+    print("user loose the game🥺 ")
+
+
+# ************ number gussing game using Numpy   ***********
 
 
 # a = np.array([1,2,3,4,5,6,7,8,9])
