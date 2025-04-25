@@ -193,18 +193,38 @@ print("\n")
 
 print("performing ascending operation")
 print("before ascending order")
-z3 = np.random.randint(1,15,size=15)
+z3 = np.random.choice(np.arange(1,16),size=15, replace=False)
 print(z3)
 z4 = np.sort(z3)
+print("ascending order")
 print(z4)
+print("Decending order")
+print(z4[::-1])
 
 
+print("method 2 to find decending order array")
+z5 = np.array([5,7,16,6,15,63,75,65])
+z6 = np.sort(z5)
+print(z6)
+z7 = np.flip(z6)
+print(z7)
 
-# a = np.array([1,2,3,4,5,6,7,8,9])
-# print(a)
-# print(type(a))
-# b = np.mean(a)
-# print(b)
+# ************ create 1-D, 2-D, 3-D array with same number  ***********
+
+print("1-D array with same number")
+ab = np.full((4),5)
+print(ab)
+print("2-D array with same number")
+abc = np.full((3,5),8)
+print(abc)
+print("3-D array with same number")
+abcd = np.full((3,5,4),9)
+print(abcd)
+print("\n")
+
+# ************ create 1-D, 2-D, 3-D array with same number  ***********
+
+print("creating a numpy array by taking input form user: ")
 
 # rows = int(input("how many rows you want: "))
 # cols = int(input("how many columns you want: "))
@@ -216,3 +236,13 @@ print(z4)
 #     data.append(row)
 #     arr = np.array(data)
 #     print(arr)
+
+
+
+
+
+
+
+
+
+#********************************* THE END **************************************
