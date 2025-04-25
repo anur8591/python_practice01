@@ -147,14 +147,56 @@ print("\n")
 
 # ************ finding 'mean' using Numpy ***********
 
-a7 = np.array([1,2,3,4,5,6,7,8,9])
+a7 = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 a8 = np.mean(a7)
 print(a8)
 print("\n")
 
 # ************ finding 'median' using Numpy ***********
 
+a8 = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+a9 = np.median(a8)
+print(a9)
+print("\n")
 
+# ************ finding 'mode' using Numpy and statistic  ***********
+
+import statistics as st 
+
+b1 = np.array([1,2,3,4,5,6,7,8,9])
+b2 = np.array([1,2,2,3,4,8,5,4,8,5,5,4,1,8,4,5,1,8,7,8,4,5,6,4,6,8,1,5,1,6,5,1,8,6,1,6,8])
+b3 = st.mode(b1)
+b4 = st.mode(b2)
+print(f"if the number is unique the the mode is smallest number present in the array: {b3}")
+print(b1)
+print(f"the mode is{b1}")
+print(b2)
+print(f"the mode is {b4}")
+print("\n")
+
+# ************ Mathematical Operation on Numpy Array  ***********
+
+x1 = np.array([1,2,3,4,5,6,8,7,9,10])
+x2 = np.array([11,12,13,14,15,16,17,18,19,20])
+print("Adding two Numpy array method 1 ")
+z = x1 + x2
+print(z)
+print("Adding two numpy array method 2 ")
+z1 = np.add(x1,x2)
+print(z1)
+print("concatenating two numpy array")
+z2 = np.concatenate((x1,x2))
+print(z2)
+print("\n")
+
+# ************ Performing Ascending and Decending Opperation ***********
+
+print("performing ascending operation")
+print("before ascending order")
+z3 = np.random.randint(1,15,size=15)
+print(z3)
+z4 = np.sort(z3)
+print(z4)
 
 
 
