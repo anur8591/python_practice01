@@ -1,5 +1,12 @@
 import numpy as np
 
+# ************ 0 - D array ***********
+
+print("\n***** 0 - dimention array*****")
+aa = np.array(12)
+print(aa)
+print(f"It is a \'{aa.ndim}-D\'array\n")
+
 # ************ 1 - D array ***********
 
 a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
@@ -222,20 +229,20 @@ abcd = np.full((3,5,4),9)
 print(abcd)
 print("\n")
 
-# ************ create 1-D, 2-D, 3-D array with same number  ***********
+# ************ creating array from user input  ***********
 
 print("creating a numpy array by taking input form user: ")
 
-# rows = int(input("how many rows you want: "))
-# cols = int(input("how many columns you want: "))
+rows = int(input("how many rows you want: "))
+cols = int(input("how many columns you want: "))
 
-# data = []
+data = []
 
-# for i in range (rows):
-#     row = list(map(int, input(f"Row{i + 1}: ").split( ",")))
-#     data.append(row)
-#     arr = np.array(data)
-#     print(arr)
+for i in range (rows):
+    row = list(map(int, input(f"Row{i + 1}: ").split( ",")))
+    data.append(row)
+    arr = np.array(data)
+    print(arr)
 
 
 
